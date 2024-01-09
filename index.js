@@ -270,7 +270,7 @@ function draw() {
     const restartText = 'Pritisni bilo gdje da ponovo igraš'
     ctx.fillText(restartText, canv.width / 2 - ctx.measureText(restartText).width / 2, canv.height / 2 - 70);
 
-    const imageURL = 'hs.png';
+    const imageURL = 'hs.JPG';
     const image = new Image();
     image.src = imageURL;
     image.onload = function () {
